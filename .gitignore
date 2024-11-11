@@ -1,0 +1,40 @@
+﻿# Các file và thư mục hệ thống
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Thư mục dựng build
+bin/
+obj/
+
+# Các file và thư mục gói NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Thư viện bên ngoài và các thư mục không cần thiết
+lib/
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Tệp cấu hình môi trường
+*.config
+*.env
+
+# Thư mục dựng test
+TestResults/
+
+# File tạm của IDE
+*.tmp
+*.temp
+*.bak
+
+# Thông tin tài khoản người dùng
+*.resharper
+_ReSharper.Caches
